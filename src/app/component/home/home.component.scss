@@ -2,9 +2,9 @@
 .topbar {
     position: fixed;
     top: 0;
-    height: 4rem;
+    height: 2.5rem;
     width: 100%;
-    background-color: var(--blue);
+    background-color:rgb(141, 33, 33);
     padding: 0 2rem;
     @include displayflex(row, space-between, center);
     &__left {
@@ -137,3 +137,10 @@
     color: #f00;
     text-decoration: line-through;
 }
+ .h1Styles  {
+   
+  
+    bottom: '2rem',
+    padding '1.5rem',
+
+  };
